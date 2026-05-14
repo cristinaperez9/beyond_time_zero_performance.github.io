@@ -1,3 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  color: #24292f;
+  background: #fff;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+a {
+  color: #6aa6ff;
+}
+
+a:hover {
+  color: #3d7fe0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #24292f;
+  line-height: 1.18;
+  font-weight: 400;
+}
+
+h1 {
+  margin: 0 0 1rem;
+  font-size: 3.1rem;
+}
+
+h2 {
+  margin: 0 0 1rem;
+  font-size: 2rem;
+}
+
+h3 {
+  margin-top: 1.5rem;
+  font-size: 1.35rem;
+}
+
+h4 {
+  font-size: 1.05rem;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.25rem 0;
+}
+
+th,
+td {
+  padding: 0.65rem 0.75rem;
+  border-bottom: 1px solid #e6e6e6;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  font-weight: 600;
+}
+
+.container,
+.content {
+  width: min(1100px, calc(100% - 2rem));
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.py-5 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.px-3 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-4 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-muted {
+  color: #666;
+}
+
+.h3 {
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.bg-odd {
+  background: #f6f8fa;
+}
+
+.bg-even {
+  background: #fff;
+}
+
 /* Sticky black top bar */
 .topbar {
   position: sticky;
@@ -35,6 +161,7 @@
   font-size: 16px;
   letter-spacing: 0;
   color: #fff;
+  font-family: inherit;
 }
 
 /* Nav links (right) */
@@ -51,6 +178,7 @@
   padding: 8px 10px;
   border-radius: 6px;
   font-size: 14px;
+  font-weight: 500;
 }
 
 .topbar__link:hover,
@@ -111,7 +239,7 @@ hr {
 
 /* Reduce hero banner bottom padding */
 .header {
-  padding-bottom: 0.2rem !important;  /* was 1.5rem */
+  padding-bottom: 0.2rem !important;
 }
 
 /* Reduce space above the first section (About) */
@@ -123,16 +251,16 @@ hr {
 /* Flex layout for banner with image on the left */
 .header-flex {
   display: flex;
-  align-items: center;    /* vertically center image and text */
+  align-items: center;
   justify-content: center;
   gap: 2rem;
   max-width: 1000px;
   margin: 0 auto;
-  min-height: 180px;      /* ensures a consistent banner height */
+  min-height: 180px;
 }
 
 .header-image img {
-  max-height: 200px;   /* controls size */
+  max-height: 200px;
   width: auto;
   height: auto;
   object-fit: contain;
@@ -170,8 +298,25 @@ hr {
     text-align: center;
   }
   .header-image img {
-    max-height: 120px; /* smaller on mobile */
+    max-height: 120px;
     width: auto;
+  }
+
+  .header-text {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  .h3 {
+    font-size: 1.25rem;
+  }
+
+  .banner-info {
+    flex-direction: column;
+    gap: 0.25rem;
   }
 }
 
@@ -201,6 +346,19 @@ hr {
   }
 }
 
+.footer {
+  padding: 1.25rem 1rem;
+  text-align: center;
+  color: #888;
+  background: #f6f8fa;
+  border-top: 1px solid #eee;
+  font-size: 1rem;
+}
+
+.footer p {
+  margin: 0;
+}
+
 /* Submit button style */
 .submit-btn {
   display: inline-block;
@@ -216,4 +374,3 @@ hr {
 .submit-btn:hover {
   background: #555;         /* slightly darker grey on hover */
 }
-
