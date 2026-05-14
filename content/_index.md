@@ -53,10 +53,18 @@ title = "Beyond Time-Zero Performance @ NeurIPS 2026"
     gap: 2rem 1.5rem;
 }
 
+.organizer-photo-grid {
+    gap: 2rem 1.5rem;
+}
+
 .speaker-grid .person-card {
     background: transparent;
     border: 0;
     padding: 0.5rem;
+    text-align: center;
+}
+
+.organizer-photo-grid .person-card {
     text-align: center;
 }
 
@@ -68,6 +76,7 @@ title = "Beyond Time-Zero Performance @ NeurIPS 2026"
 }
 
 .speaker-photo,
+.organizer-photo,
 .advisor-photo {
     width: min(220px, 64vw);
     aspect-ratio: 1;
@@ -75,6 +84,10 @@ title = "Beyond Time-Zero Performance @ NeurIPS 2026"
     object-fit: cover;
     display: block;
     margin: 0 auto 1rem;
+}
+
+.organizer-photo {
+    width: min(180px, 58vw);
 }
 
 .advisor-photo {
@@ -88,6 +101,11 @@ title = "Beyond Time-Zero Performance @ NeurIPS 2026"
 
 .advisor-photo-grid .advisor-card h4 {
     font-size: clamp(1.25rem, 4vw, 1.65rem);
+    margin-bottom: 0.45rem;
+}
+
+.organizer-photo-grid .person-card h4 {
+    font-size: clamp(1.2rem, 4vw, 1.55rem);
     margin-bottom: 0.45rem;
 }
 
@@ -294,12 +312,12 @@ Proceedings-track and Datasets & Benchmarks papers are planned for a dedicated P
 
 ## Organizers {#organizers}
 
-<div class="people-grid">
-<div class="person-card"><h4>Cristina Almagro-Perez</h4><p class="person-affiliation">Harvard-MIT Health Sciences and Technology; Brigham and Women's Hospital, US</p><p class="person-role">Operations & Program Delivery Chair</p></div>
-<div class="person-card"><h4>Sonia Laguna</h4><p class="person-affiliation">Apple; ETH Zurich; Max Planck Institute, FR/CH/DE</p><p class="person-role">Executive Co-Chair & Scientific Co-Chair</p></div>
-<div class="person-card"><h4>Silke Muehlstedt</h4><p class="person-affiliation">ETH Zurich, CH</p><p class="person-role">Strategy, External Relations & Sponsorship Chair</p></div>
+<div class="people-grid organizer-photo-grid">
+<div class="person-card"><img class="organizer-photo" src="img/organizers/cristina-almagro-perez.jpeg" alt="Cristina Almagro-Perez"><h4>Cristina Almagro-Perez</h4><p class="person-affiliation">Harvard-MIT Health Sciences and Technology; Brigham and Women's Hospital, US</p><p class="person-role">Operations & Program Delivery Chair</p></div>
+<div class="person-card"><img class="organizer-photo" src="img/organizers/sonia-laguna.jpeg" alt="Sonia Laguna"><h4>Sonia Laguna</h4><p class="person-affiliation">Apple; ETH Zurich; Max Planck Institute, FR/CH/DE</p><p class="person-role">Executive Co-Chair & Scientific Co-Chair</p></div>
+<div class="person-card"><img class="organizer-photo" src="img/organizers/silke-muehlstedt.jpeg" alt="Silke Muehlstedt"><h4>Silke Muehlstedt</h4><p class="person-affiliation">ETH Zurich, CH</p><p class="person-role">Strategy, External Relations & Sponsorship Chair</p></div>
 <div class="person-card"><h4>Tingrui "Ricky" Qiao</h4><p class="person-affiliation">University of Auckland, NZ</p><p class="person-role">Program Committee Chair</p></div>
-<div class="person-card"><h4>Samuel Ruiperez-Campillo</h4><p class="person-affiliation">MIT Institute for Medical Engineering and Science, US</p><p class="person-role">Executive Co-Chair & Scientific Co-Chair</p></div>
+<div class="person-card"><img class="organizer-photo" src="img/organizers/samuel-ruiperez-campillo.jpeg" alt="Samuel Ruiperez-Campillo"><h4>Samuel Ruiperez-Campillo</h4><p class="person-affiliation">MIT Institute for Medical Engineering and Science, US</p><p class="person-role">Executive Co-Chair & Scientific Co-Chair</p></div>
 </div>
 
 ### Senior Advisory Board
