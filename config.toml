@@ -1,0 +1,63 @@
+base_url = "https://multimodal-rep-learning-for-health.github.io/"
+compile_sass = true
+minify_html = true
+
+title = "Beyond Time-Zero Performance (NeurIPS 2026 Workshop)"
+description = "Official website for the NeurIPS 2026 workshop on adaptable and interactive machine learning in healthcare."
+default_language = "en"
+theme = "academic-workshop"
+
+[markdown]
+
+[markdown.highlighting]
+theme = "github-light"
+
+[extra]
+# Hero header (use block tables instead of inline)
+[extra.title]
+title = "Beyond Time-Zero Performance"
+subtitles = ["Towards Adaptable and Interactive Machine Learning in Healthcare", "NeurIPS 2026 Workshop"]
+
+[[extra.header_pages]]
+name = "About"
+url  = "#about"
+
+[[extra.header_pages]]
+name = "Key Info"
+url  = "#key-info"
+
+[[extra.header_pages]]
+name = "Call for Papers"
+url  = "#call-for-papers"
+
+[[extra.header_pages]]
+name = "Accepted Papers"
+url  = "#accepted-papers"
+
+[[extra.header_pages]]
+name = "Awards"
+url  = "#awards"
+
+[[extra.header_pages]]
+name = "Schedule"
+url  = "#schedule"
+
+[[extra.header_pages]]
+name = "Speakers"
+url  = "#confirmed-speakers"
+
+[[extra.header_pages]]
+name = "Organizers"
+url  = "#organizers"
+
+[[extra.header_pages]]
+name = "PC"
+url  = "#program-committee"
+
+
+
+# Banner image is static/img/banner.png.
+[extra.banner]
+extension = "png"
+size = "fixed"
+fade = true
