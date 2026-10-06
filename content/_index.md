@@ -1,5 +1,5 @@
 +++
-title = "LIMBO: Living Clinical Models @ NeurIPS 2026"
+title = "LiMBo: Living Clinical Models @ ICLR 2027"
 +++
 
 <style>
@@ -220,6 +220,10 @@ title = "LIMBO: Living Clinical Models @ NeurIPS 2026"
         grid-template-columns: repeat(3, 1fr);
     }
 
+    .organizer-photo-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .pc-grid {
         column-count: 2;
     }
@@ -234,7 +238,7 @@ title = "LIMBO: Living Clinical Models @ NeurIPS 2026"
 
 Standard ML evaluation assumes a stationary world: a fixed test distribution, a fixed dataset, and a fixed notion of correctness. Deployed clinical systems violate all three. Patient populations drift, hardware and protocols evolve, individual records may need to be removed, and clinician feedback continually reshapes what counts as a correct prediction.
 
-LIMBO brings together researchers working on adaptable, maintainable, and interactive machine learning systems for healthcare. We focus on post-deployment behavior: models that can adapt under distribution shift, support verifiable unlearning, expose uncertainty, and be audited or corrected through human feedback without destabilizing learned behavior.
+LiMBo brings together researchers working on adaptable, maintainable, and interactive machine learning systems for healthcare. We focus on post-deployment behavior: models that can adapt under distribution shift, support verifiable unlearning, expose uncertainty, and be audited or corrected through human feedback without destabilizing learned behavior.
 
 Our goal is to build shared problem formulations, evaluation protocols, and benchmarks for healthcare ML systems that change over time. The workshop is method-first, with healthcare as the stress test: data scarcity, privacy withdrawal, clinical oversight, safety constraints, and regulation make post-deployment reliability unavoidable.
 
@@ -259,16 +263,18 @@ Our goal is to build shared problem formulations, evaluation protocols, and benc
 
 ### Important Dates
 
-Please note that all deadlines are Anywhere on Earth (AOE). Dates will be updated after workshop acceptance.
+Please note that all deadlines are Anywhere on Earth (AOE).
 
-- **Submission site:** OpenReview, to be announced
-- **Submission deadline:** To be announced
-- **Author notification:** Before September 29, 2026
-- **Workshop date:** To be announced
+- **Call for papers and OpenReview submission portal open:** December 7, 2026
+- **Submission deadline:** February 1, 2027
+- **Author notification:** February 22, 2027
+- **Camera-ready deadline:** March 19, 2027
+- **Talk titles and full schedule public:** March 26, 2027
+- **Workshop date:** April 29 or 30, 2027, at ICLR 2027 in San Francisco (exact day to be announced)
 
 ### Format
 
-The workshop will feature invited talks, selected spotlight talks, two poster sessions, a moderated panel, an open Q&A discussion, and closing awards. Reviewing will be double-blind via OpenReview, with at least three reviews per submission and conflict-of-interest handling at both organizer and reviewer levels.
+The workshop will feature invited talks, selected spotlight talks, Tiny Papers lightning talks, two poster sessions, a moderated panel, an open Q&A discussion, and closing awards. Reviewing will be double-blind via OpenReview, with at least three reviews per submission and conflict-of-interest handling at both organizer and reviewer levels.
 
 </section>
 
@@ -343,13 +349,16 @@ We are also in discussion with TMLR for an editorial that summarizes the scienti
 We plan to recognize outstanding contributions and reviewing through the following awards. Awardees will be announced after the workshop review and presentation process.
 
 <div class="award-grid">
-<div class="award-card"><h4>Best Paper Award</h4><p>Recognizing the strongest accepted contribution to post-deployment machine learning for healthcare.</p><p class="award-status">Awardee to be announced.</p></div>
-<div class="award-card"><h4>Best Paper Runner-Up</h4><p>Recognizing an additional outstanding accepted contribution from the workshop program.</p><p class="award-status">Awardee to be announced.</p></div>
-<div class="award-card"><h4>Best Reviewer Award</h4><p>Recognizing exceptional reviewing quality, constructiveness, and service to the double-blind review process.</p><p class="award-status">Awardee to be announced.</p></div>
-<div class="award-card"><h4>Best Reviewer Runner-Up</h4><p>Recognizing an additional reviewer whose feedback substantially supports authors and the program committee.</p><p class="award-status">Awardee to be announced.</p></div>
+<div class="award-card"><h4>Best Paper Award (600 USD)</h4><p>Recognizing the strongest accepted contribution to post-deployment machine learning for healthcare.</p><p class="award-status">Awardee to be announced.</p></div>
+<div class="award-card"><h4>Best Presentation Award (400 USD)</h4><p>Recognizing the clearest and most engaging spotlight or lightning talk presented at the workshop.</p><p class="award-status">Awardee to be announced.</p></div>
+<div class="award-card"><h4>Best Presentation Runner-Up (350 USD)</h4><p>Recognizing an additional outstanding talk from the workshop program.</p><p class="award-status">Awardee to be announced.</p></div>
+<div class="award-card"><h4>Best Poster Award (300 USD)</h4><p>Recognizing the most compelling poster presented during the poster sessions.</p><p class="award-status">Awardee to be announced.</p></div>
+<div class="award-card"><h4>Best Poster Runner-Up (225 USD)</h4><p>Recognizing an additional outstanding poster from the poster sessions.</p><p class="award-status">Awardee to be announced.</p></div>
+<div class="award-card"><h4>Best Reviewer Award (75 USD)</h4><p>Recognizing exceptional reviewing quality, constructiveness, and service to the double-blind review process.</p><p class="award-status">Awardee to be announced.</p></div>
+<div class="award-card"><h4>Best Reviewer Runner-Up (50 USD)</h4><p>Recognizing an additional reviewer whose feedback substantially supports authors and the program committee.</p><p class="award-status">Awardee to be announced.</p></div>
 </div>
 
-Subject to sponsor support, awards may include a monetary prize or sponsored registration/travel support. We also aim to provide attendance support awards for students and early-career researchers with financial need, prioritizing applicants from underrepresented or under-resourced backgrounds.
+Awards total 2,000 USD. In addition, we will offer travel and registration support to 10-15 students and early-career researchers with financial need, prioritizing applicants from underrepresented or under-resourced backgrounds.
 
 </section>
 
@@ -375,9 +384,9 @@ Subject to sponsor support, awards may include a monetary prize or sponsored reg
 | 12:50-14:00 | Lunch & Networking | - |
 | 14:00-15:15 | Auditing dynamic clinical ML | Theme block |
 | 14:00-14:20 | Invited Talk V | Irene Chen |
-| 14:25-14:45 | Invited Talk VI | Melissa McCradden |
-| 14:45-15:00 | Spotlight Talk III - Selected Submission | Presenter 3 |
-| 15:00-15:15 | Spotlight Talk IV - Selected Submission | Presenter 4 |
+| 14:25-14:40 | Spotlight Talk III - Selected Submission | Presenter 3 |
+| 14:40-14:55 | Spotlight Talk IV - Selected Submission | Presenter 4 |
+| 14:55-15:15 | Tiny Papers Lightning Talks | Tiny Papers Presenters |
 | 15:15-16:00 | Coffee Break & Poster Session II | Poster Presenters |
 | 16:00-16:15 | Open Q&A and Discussion | Session Chair |
 | 16:15-16:30 | Closing Remarks & Awards | Organizers |
@@ -396,7 +405,6 @@ Subject to sponsor support, awards may include a monetary prize or sponsored reg
 <div class="person-card"><img class="speaker-photo" src="img/speakers/razvan-pascanu.jpeg" alt="Razvan Pascanu"><h4>Razvan Pascanu</h4><p class="person-affiliation">Google DeepMind and Mila, Canada</p><p class="person-role">Speaker & Panelist</p></div>
 <div class="person-card"><img class="speaker-photo" src="img/speakers/olivier-salvado.jpeg" alt="Olivier Salvado"><h4>Olivier Salvado</h4><p class="person-affiliation">Queensland University of Technology, AU</p><p class="person-role">Speaker & Panelist</p></div>
 <div class="person-card"><img class="speaker-photo" src="img/speakers/yarin-gal.jpeg" alt="Yarin Gal"><h4>Yarin Gal</h4><p class="person-affiliation">University of Oxford, UK</p><p class="person-role">Speaker & Panelist</p></div>
-<div class="person-card"><img class="speaker-photo" src="img/speakers/melissa-mccradden-centered.jpeg" alt="Melissa McCradden"><h4>Melissa McCradden</h4><p class="person-affiliation">University of Adelaide, AU</p><p class="person-role">Speaker & Panelist</p></div>
 </div>
 
 </section>
@@ -408,10 +416,9 @@ Subject to sponsor support, awards may include a monetary prize or sponsored reg
 ## Organizers {#organizers}
 
 <div class="people-grid organizer-photo-grid">
-<div class="person-card"><img class="organizer-photo" src="img/organizers/cristina-almagro-perez.jpeg" alt="Cristina Almagro-Perez"><h4>Cristina Almagro-Perez</h4><p class="person-affiliation">Harvard Medical School, US</p><p class="person-role">Operations & Program Delivery Chair</p></div>
-<div class="person-card"><img class="organizer-photo" src="img/organizers/sonia-laguna.jpeg" alt="Sonia Laguna"><h4>Sonia Laguna</h4><p class="person-affiliation">Apple, FR</p><p class="person-role">Executive Co-Chair & Scientific Co-Chair</p></div>
-<div class="person-card"><img class="organizer-photo" src="img/organizers/silke-muehlstedt.jpeg" alt="Silke Muehlstedt"><h4>Silke Muehlstedt</h4><p class="person-affiliation">ETH Zurich, CH</p><p class="person-role">Strategy, External Relations & Sponsorship Chair</p></div>
-<div class="person-card"><img class="organizer-photo" src="img/organizers/ricky-qiao.jpeg" alt="Tingrui Ricky Qiao"><h4>Tingrui "Ricky" Qiao</h4><p class="person-affiliation">University of Auckland, NZ</p><p class="person-role">Program Committee Chair</p></div>
+<div class="person-card"><img class="organizer-photo" src="img/organizers/cristina-almagro-perez.jpeg" alt="Cristina Almagro-Perez"><h4>Cristina Almagro-Perez</h4><p class="person-affiliation">Harvard-MIT HST and Brigham and Women's Hospital, US</p><p class="person-role">Operations & Program Delivery Chair</p></div>
+<div class="person-card"><img class="organizer-photo" src="img/organizers/sonia-laguna.jpeg" alt="Sonia Laguna"><h4>Sonia Laguna</h4><p class="person-affiliation">Apple, FR</p><p class="person-role">Program Committee & External Relations Chair</p></div>
+<div class="person-card"><img class="organizer-photo" src="img/organizers/silke-muehlstedt.jpeg" alt="Silke Muehlstedt"><h4>Silke Muehlstedt</h4><p class="person-affiliation">ETH Zurich, CH</p><p class="person-role">Executive Co-Chair & Scientific Co-Chair</p></div>
 <div class="person-card"><img class="organizer-photo" src="img/organizers/samuel-ruiperez-campillo.jpeg" alt="Samuel Ruiperez-Campillo"><h4>Samuel Ruiperez-Campillo</h4><p class="person-affiliation">Massachusetts Institute of Technology, US</p><p class="person-role">Executive Co-Chair & Scientific Co-Chair</p></div>
 </div>
 

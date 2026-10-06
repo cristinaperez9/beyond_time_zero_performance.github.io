@@ -2,8 +2,8 @@ base_url = "https://cristinaperez9.github.io/beyond_time_zero_performance.github
 compile_sass = true
 minify_html = true
 
-title = "LIMBO: Living Clinical Models (NeurIPS 2026 Workshop)"
-description = "Official website for LIMBO, the NeurIPS 2026 workshop on living clinical models and machine learning beyond deployment."
+title = "LiMBo: Living Clinical Models (ICLR 2027 Workshop)"
+description = "Official website for LiMBo, the ICLR 2027 workshop on living clinical models and machine learning beyond deployment."
 default_language = "en"
 theme = "academic-workshop"
 
@@ -15,8 +15,8 @@ theme = "github-light"
 [extra]
 # Hero header (use block tables instead of inline)
 [extra.title]
-title = "LIMBO"
-subtitles = ["Living Clinical Models: Rethinking Machine Learning Beyond Deployment", "NeurIPS 2026 Workshop"]
+title = "LiMBo"
+subtitles = ["Living Clinical Models: Rethinking Machine Learning Beyond Deployment", "ICLR 2027 Workshop"]
 
 [[extra.header_pages]]
 name = "About"
